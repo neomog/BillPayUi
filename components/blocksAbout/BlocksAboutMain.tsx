@@ -1,4 +1,3 @@
-import Support from "../bookingLanding3/Support";
 import Code from "../code/Code";
 import BlockMain from "../common/BlockMain";
 import Refer1 from "../home/Refer";
@@ -227,7 +226,7 @@ const BlocksAboutMain = () => {
               role="tabpanel"
               aria-labelledby="pills-home-tabh5ts"
             >
-              <Support />
+              {/*<Support />*/}
             </div>
             <div
               className="tab-pane fade"
