@@ -1,4 +1,3 @@
-import BusFacilities from "../busBook/BusFacilities";
 import Code from "../code/Code";
 import BlockMain from "../common/BlockMain";
 import PopularDestinations from "../flightBook/PopularDestinations";
@@ -409,7 +408,6 @@ const BlocksAllblocksMain = () => {
               role="tabpanel"
               aria-labelledby="pills-home-tabhs4"
             >
-              <BusFacilities />
             </div>
             <div
               className="tab-pane fade"
