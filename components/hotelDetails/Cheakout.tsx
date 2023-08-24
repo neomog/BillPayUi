@@ -63,15 +63,15 @@ const Cheakout = () => {
           </div>
           <div className="dating__item dating__inetial select__border">
             {/* Select Here */}
-            <Select data={adult} />
+            {/*<Select data={operator} />*/}adult} />
           </div>
           <div className="dating__item dating__inetial select__border">
             {/* Select Here */}
-            <Select data={children} />
+            {/*<Select data={operator} />*/}children} />
           </div>
           <div className="dating__inetial roomtype select__border">
             {/* Select Here */}
-            <Select data={roomType} />
+            {/*<Select data={operator} />*/}roomType} />
           </div>
         </div>
       </div>

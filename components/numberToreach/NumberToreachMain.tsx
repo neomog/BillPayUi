@@ -32,7 +32,7 @@ const NumberToreachMain = () => {
                         <Image src={us} alt="us" />
                       </div>
                       {/* select here */}
-                      <Select data={countryCode} />
+                      {/*<Select data={operator} />*/}countryCode} />
                       <input type="text" />
                     </div>
                   </div>

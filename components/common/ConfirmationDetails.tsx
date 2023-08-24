@@ -218,19 +218,19 @@ const ConfirmationDetails = ({ title }: { title?: string }) => {
               <div className="col-xxl-3 col-xl-6 col-lg-6 col-md-6 col-sm-12">
                 <div className="dating__item select__border">
                   {/* select here */}
-                  <Select data={adult} />
+                  {/*<Select data={operator} />*/}adult} />
                 </div>
               </div>
               <div className="col-xxl-3 col-xl-6 col-lg-6 col-md-6 col-sm-12">
                 <div className="dating__item select__border">
                   {/* select here */}
-                  <Select data={child} />
+                  {/*<Select data={operator} />*/}child} />
                 </div>
               </div>
               <div className="col-xxl-3 col-xl-6 col-lg-6 col-md-6 col-sm-12">
                 <div className="dating__item select__border">
                   {/* select here */}
-                  <Select data={gender} />
+                  {/*<Select data={operator} />*/}gender} />
                 </div>
               </div>
               <div className="col-xxl-3 col-xl-6 col-lg-6 col-md-6 col-sm-12">

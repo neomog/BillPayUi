@@ -99,7 +99,7 @@ const SearchOption = () => {
                   <div className="col-xxl-2 col-xl-6 col-lg-3 col-md-6 col-sm-12">
                     <div className="dating__item select__border">
                       {/* select here */}
-                      <Select data={clss} />
+                      {/*<Select data={operator} />*/}clss} />
                     </div>
                   </div>
                   <div className="col-xxl-2 col-xl-6 col-lg-3 col-md-6 col-sm-12">
