@@ -26,7 +26,7 @@ const CarSearch = () => {
           </div>
           <div className="dating__item select__border">
             {/* select here */}
-            <Select data={time} />
+            {/*<Select data={time} />*/}
           </div>
           <div className="dating__item">
             {/* Date Picker */}

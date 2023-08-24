@@ -26,11 +26,11 @@ const RechargePaymentboxTwo = ({ title }: { title: string }) => {
           </div>
           <div className="col-lg-6">
             {/* select here */}
-            <Select data={operator} />
+            {/*<Select data={operator} />*/}
           </div>
           <div className="col-lg-6">
             {/* select here */}
-            <Select data={state} />
+            {/*<Select data={state} />*/}
           </div>
           <div className="col-lg-6">
             <input type="number" placeholder="Enter Bill Amount" />

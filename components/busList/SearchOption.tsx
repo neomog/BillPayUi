@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import DatePicker from "react-datepicker";
-import Select from "../select/Select";
+// import Select from "../select/Select";
 
 const clss = [
   { id: 1, name: "Class" },
@@ -71,7 +71,7 @@ const SearchOption = () => {
                 </div>
                 <div className="dating__item select__border">
                   {/* select here */}
-                  <Select data={clss} />
+                  {/*<Select data={clss} />*/}
                 </div>
                 <div className="dating__item">
                   <button type="submit" className="cmn__btn">

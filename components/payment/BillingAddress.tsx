@@ -53,7 +53,7 @@ const BillingAddress = () => {
           <div className="col-lg-6">
             <div className="input-single">
               {/* select here */}
-              <Select data={country} />
+              {/*<Select data={country} />*/}
             </div>
           </div>
           <div className="col-lg-12">

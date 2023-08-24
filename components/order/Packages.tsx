@@ -34,7 +34,7 @@ const Packages = () => {
     <>
       <div className="oparator__texts">
         {/* select here */}
-        <Select data={choose} />
+        {/*<Select data={choose} />*/}
       </div>
       <div className="row g-4">
         <div className="col-lg-6">
@@ -47,7 +47,7 @@ const Packages = () => {
             <span className="usd fz-16">USD 10.00</span>
             <div className="valu__btn">
               {/* select here */}
-              <Select data={code} />
+              {/*<Select data={code} />*/}
               <Link href="/order-summary" className="cmn__btn">
                 <span>Choose</span>
               </Link>
@@ -94,7 +94,7 @@ const Packages = () => {
             <span className="usd fz-16">USD 10.00</span>
             <div className="valu__btn">
               {/* select here */}
-              <Select data={code2} />
+              {/*<Select data={code2} />*/}
               <Link href="/order-summary" className="cmn__btn">
                 <span>Choose</span>
               </Link>
@@ -111,7 +111,7 @@ const Packages = () => {
             <span className="usd fz-16">USD 25.00</span>
             <div className="valu__btn">
               {/* select here */}
-              <Select data={code3} />
+              {/*<Select data={code3} />*/}
               <Link href="/order-summary" className="cmn__btn">
                 <span>Choose</span>
               </Link>

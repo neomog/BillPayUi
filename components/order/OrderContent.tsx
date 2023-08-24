@@ -34,7 +34,7 @@ const OrderContent = () => {
             <Image src={bang} alt="img" />
           </span>
           {/* select here */}
-          <Select data={countryCode} />
+          {/*<Select data={countryCode} />*/}
         </div>
         <input type="text" placeholder="Enter the receiver mobile number" />
         <button type="submit" className="cmn__btn">
@@ -45,7 +45,7 @@ const OrderContent = () => {
       </form>
       <div className="oparator__texts">
         {/* select here */}
-        <Select data={operator} />
+        {/*<Select data={operator} />*/}
       </div>
       <ul className="main__operator">
         <li>
