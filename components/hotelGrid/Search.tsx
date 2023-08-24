@@ -45,7 +45,7 @@ const Search = () => {
           </div>
           <div className="dating__item dating__inetial select__border">
             {/* select here */}
-            {/*<Select data={operator} />*/}room} />
+            {/*<Select data={operator} />*/}
           </div>
           <div className="dating__item">
             <button type="submit" className="cmn__btn">

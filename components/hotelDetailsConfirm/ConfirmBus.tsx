@@ -121,7 +121,7 @@ const ConfirmBus = () => {
             </span>
             <div className="dating__item dating__inetial select__border">
               {/* select here */}
-              {/*<Select data={operator} />*/}people} />
+              {/*<Select data={operator} />*/}
             </div>
           </div>
           <div className="date__grpp">
