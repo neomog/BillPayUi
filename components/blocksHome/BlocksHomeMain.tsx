@@ -1,7 +1,3 @@
-import BookingLanding1 from "../bookingLanding1/Banner";
-import BookingLanding2 from "../bookingLanding2/Banner";
-import BookingLanding3 from "../bookingLanding3/Banner";
-import BusBook from "../busBook/Banner";
 import CarsBook from "../carsBook/Banner";
 import Code from "../code/Code";
 import BlockMain from "../common/BlockMain";
@@ -241,7 +237,7 @@ const BlocksHomeMain = () => {
               role="tabpanel"
               aria-labelledby="pills-home-tabh4"
             >
-              <BookingLanding1 />
+              {/*<BookingLanding1 />*/}
             </div>
             <div
               className="tab-pane fade"
@@ -296,7 +292,7 @@ const BlocksHomeMain = () => {
               role="tabpanel"
               aria-labelledby="pills-home-tabh5"
             >
-              <BookingLanding2 />
+              {/*<BookingLanding2 />*/}
             </div>
             <div
               className="tab-pane fade"
@@ -355,7 +351,7 @@ const BlocksHomeMain = () => {
               role="tabpanel"
               aria-labelledby="pills-home-tabh5ts"
             >
-              <BookingLanding3 />
+              {/*<BookingLanding3 />*/}
             </div>
             <div
               className="tab-pane fade"
@@ -594,7 +590,7 @@ const BlocksHomeMain = () => {
               aria-labelledby="pills-home-tabhs3"
             >
               {/* Home Here */}
-              <BusBook />
+              {/*<BusBook />*/}
               {/* Home End */}
             </div>
             <div
