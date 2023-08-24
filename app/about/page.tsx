@@ -1,7 +1,5 @@
 import Banner from "@/components/about/Banner";
 import Sponsor from "@/components/about/Sponsor";
-import Support from "@/components/bookingLanding3/Support";
-import Testimonial from "@/components/bookingLanding3/Testimonial";
 import Footer from "@/components/footer/Footer";
 import Faq from "@/components/home/Faq";
 import AppStore from "@/components/homeTwo/AppStore";
@@ -17,7 +15,7 @@ export default function About() {
       <Banner />
 
       {/* Support Section Here  */}
-      <Support />
+      {/*<Support />*/}
 
       {/* Faq Section Here  */}
       <Faq />
@@ -29,7 +27,7 @@ export default function About() {
       <AppStore />
 
       {/* Testimonial Section Here  */}
-      <Testimonial />
+      {/*<Testimonial />*/}
 
       {/* Footer Section Here  */}
       <Footer />
