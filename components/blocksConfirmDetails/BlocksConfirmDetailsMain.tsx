@@ -1,4 +1,3 @@
-import BusDetailsMain from "../busConfirmDetails/BusDetailsMain";
 import ConfermationMain from "../carConfirmDetails/ConfermationMain";
 import Code from "../code/Code";
 import BlockMain from "../common/BlockMain";
@@ -225,7 +224,7 @@ const BlocksConfirmDetailsMain = () => {
               role="tabpanel"
               aria-labelledby="pills-home-tabh4"
             >
-              <BusDetailsMain />
+              {/*<BusDetailsMain />*/}
             </div>
             <div
               className="tab-pane fade"
