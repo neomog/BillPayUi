@@ -29,7 +29,7 @@ app.post('/', upload.none(), async (req, res) => {
             },
         };
 
-        const response = await fetch('http://billpay.conmasol.com/', fetchOptions);
+        const response = await fetch('https://billpay.conmasol.com/', fetchOptions);
         const responseData = await response.json();
 
         console.log('Data forwarded successfully:', responseData);
