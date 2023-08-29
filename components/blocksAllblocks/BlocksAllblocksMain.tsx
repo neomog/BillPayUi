@@ -1,7 +1,5 @@
 import Code from "../code/Code";
 import BlockMain from "../common/BlockMain";
-import PopularDestinations from "../flightBook/PopularDestinations";
-import TravelsDiscount from "../flightBook/TravelsDiscount";
 import AppStore from "../home/AppStore";
 import HowItWork from "../homeThree/HowItWork";
 import HowItWork2 from "../homeTwo/HowItWork";
@@ -293,7 +291,6 @@ const BlocksAllblocksMain = () => {
               role="tabpanel"
               aria-labelledby="pills-home-tabh5ts"
             >
-              <PopularDestinations />
             </div>
             <div
               className="tab-pane fade"
@@ -348,7 +345,6 @@ const BlocksAllblocksMain = () => {
               role="tabpanel"
               aria-labelledby="pills-home-tabhs"
             >
-              <TravelsDiscount />
             </div>
             <div
               className="tab-pane fade"
