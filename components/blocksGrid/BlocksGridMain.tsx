@@ -1,5 +1,4 @@
 import BlogGridMain from "../blogGrid/BlogGridMain";
-import CarGridMain from "../carGrid/CarGridMain";
 import Code from "../code/Code";
 import BlockMain from "../common/BlockMain";
 import HotelGridMian from "../hotelGrid/HotelGridMian";
@@ -223,7 +222,6 @@ const BlocksGridMain = () => {
               role="tabpanel"
               aria-labelledby="pills-home-tabh4"
             >
-              <CarGridMain />
             </div>
             <div
               className="tab-pane fade"

@@ -2,7 +2,6 @@ import InvoiceMain from "../busInvocie/InvoiceMain";
 import Code from "../code/Code";
 import BlockMain from "../common/BlockMain";
 import EmailInvoice from "../common/EmailInvoice";
-import FlightInvoiceMain from "../flightInvoice/FlightInvoiceMain";
 import { emailInvoice, flightInvoiceMain, invoiceMain } from "./code";
 
 const BlocksInvoiceMain = () => {
@@ -52,7 +51,6 @@ const BlocksInvoiceMain = () => {
               role="tabpanel"
               aria-labelledby="pills-home-tabh5"
             >
-              <FlightInvoiceMain />
             </div>
             <div
               className="tab-pane fade"

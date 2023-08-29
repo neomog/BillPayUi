@@ -1,5 +1,4 @@
 import AllBusListOne from "../busList/AllBusList";
-import AllBusListOneWay from "../busOneway/AllBusList";
 import Code from "../code/Code";
 import BlockMain from "../common/BlockMain";
 import Pagination from "../pagination/Pagination";
@@ -134,7 +133,6 @@ const BlocksRoundMain = () => {
                         New York To Dubai & Dubai To New York
                       </span>
                       {/* All Bus List Here */}
-                      <AllBusListOneWay />
 
                       {/* Pagination Here */}
                       <Pagination clss="justify-content-center pt__40" />

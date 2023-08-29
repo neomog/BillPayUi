@@ -1,7 +1,5 @@
-import CarsBook from "../carsBook/Banner";
 import Code from "../code/Code";
 import BlockMain from "../common/BlockMain";
-import FlightBook from "../flightBook/Banner";
 import Banner1 from "../home/Banner";
 import Banner3 from "../homeThree/Banner";
 import Banner2 from "../homeTwo/Banner";
@@ -468,7 +466,6 @@ const BlocksHomeMain = () => {
               aria-labelledby="pills-home-tabhs1"
             >
               {/* Home Here */}
-              <FlightBook />
               {/* Home End */}
             </div>
             <div
@@ -651,7 +648,6 @@ const BlocksHomeMain = () => {
               aria-labelledby="pills-home-tabhs4"
             >
               {/* Home Here */}
-              <CarsBook />
               {/* Home End */}
             </div>
             <div

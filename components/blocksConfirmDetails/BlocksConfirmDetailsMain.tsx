@@ -1,7 +1,6 @@
 import ConfermationMain from "../carConfirmDetails/ConfermationMain";
 import Code from "../code/Code";
 import BlockMain from "../common/BlockMain";
-import FlightDetailsMain from "../flightConfirmDetails/FlightDetailsMain";
 import ConfermationMain1 from "../hotelDetailsConfirm/ConfermationMain";
 import TrainDetailsMain from "../trainConfirmDetails/TrainDetailsMain";
 import {
@@ -114,7 +113,6 @@ const BlocksConfirmDetailsMain = () => {
               role="tabpanel"
               aria-labelledby="pills-home-tabh2"
             >
-              <FlightDetailsMain />
             </div>
             <div
               className="tab-pane fade"

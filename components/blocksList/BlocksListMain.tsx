@@ -1,6 +1,5 @@
 import BlogListMain from "../blogList/BlogListMain";
 import BusListMain from "../busList/BusListMain";
-import CartListMain from "../carList/CartListMain";
 import Code from "../code/Code";
 import BlockMain from "../common/BlockMain";
 import HotelListMian from "../hotelList/HotelListMian";
@@ -280,7 +279,6 @@ const BlocksListMain = () => {
               role="tabpanel"
               aria-labelledby="pills-home-tabh5"
             >
-              <CartListMain />
             </div>
             <div
               className="tab-pane fade"
