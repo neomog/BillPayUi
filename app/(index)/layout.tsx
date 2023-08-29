@@ -18,31 +18,31 @@ export default function HomeOneLayout({
       {/* Banner Section Here  */}
       <NavBar />
 
-      {children}
+      {/*{children}*/}
 
       {/* promo code Section Here */}
-      {/*<PromoCode />*/}
+      <PromoCode />
 
       {/* Refer Section Here */}
-      {/*<Refer />*/}
+      <Refer />
 
       {/* Refer Section Here */}
-      {/*<Working />*/}
+      <Working />
 
       {/* Faq Section Here */}
-      {/*<Faq />*/}
+      <Faq />
 
       {/* Testimonial Section Here */}
-      {/*<HomeTestimonialSlider />*/}
+      <HomeTestimonialSlider />
 
       {/* Testimonial Section Here */}
-      {/*<AppStore />*/}
+      <AppStore />
 
       {/* Support Section Here */}
-      {/*<Support />*/}
+      <Support />
 
       {/* Footer Section Here */}
-      {/*<Footer />*/}
+      <Footer />
     </>
   );
 }

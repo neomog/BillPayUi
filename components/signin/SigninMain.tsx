@@ -30,7 +30,7 @@ const SigninMain = () => {
     setError("");
     try {
       const response = await axios.post(
-          "http://localhost:5000",
+          `${process.env.BASE_URL}`,
           formData
       );
       setMessage(response?.data?.data?.server_message);
@@ -39,7 +39,7 @@ const SigninMain = () => {
         localStorage.setItem('isLoggedIn', 'true');
         // navigate('/login');
         setTimeout(() => {
-          window.location.href = '/';
+          window.location.href = '/dashboard';
         }, 1000);
       }
       console.log("Success:", response.data.data);

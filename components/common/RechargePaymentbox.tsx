@@ -59,7 +59,7 @@ const RechargePaymentbox = ({ title }: { title: string }) => {
     setError("");
     try {
       const response = await axios.post(
-          "http://localhost:5000",
+          `${process.env.BASE_URL}`,
           formData
       );
       setMessage(response?.data?.data?.server_message);

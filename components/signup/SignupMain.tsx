@@ -10,6 +10,7 @@ import axios from "axios";
 
 // components
 import PushNotification from "@/components/notification/PushNotification";
+import {env} from "@headlessui/react/dist/utils/env";
 
 const SignupMain = () => {
 // Use the `useClient` function
@@ -40,7 +41,7 @@ const SignupMain = () => {
     setError("");
     try {
       const response = await axios.post(
-          "http://localhost:5000",
+          `${process.env.BASE_URL}`,
           formData
       );
       setMessage(response?.data?.data?.server_message);
