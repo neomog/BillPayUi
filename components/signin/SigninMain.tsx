@@ -2,7 +2,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import signup from "/public/img/signup/signup.png";
-import {useState} from "react";
+import {useState, useEffect} from "react";
 import axios from "axios";
 import PushNotification from "@/components/notification/PushNotification";
 
@@ -36,10 +36,10 @@ const SigninMain = () => {
       setMessage(response?.data?.data?.server_message);
       setResponseStatus(response?.data?.data?.status);
       if (responseStatus) {
-        localStorage.setItem('isLoggedIn', 'true');
+        // localStorage.setItem('isLoggedIn', 'true');
         // navigate('/login');
         // setTimeout(() => {
-          window.location.href = '/dashboard';
+        //   window.location.href = '/dashboard';
         // }, 1000);
       }
       console.log("Success:", response.data.data);
@@ -50,6 +50,13 @@ const SigninMain = () => {
       setLoading(false);
     }
   };
+
+  useEffect(() => {
+    if (responseStatus) {
+      localStorage.setItem("isLoggedIn", "true");
+      window.location.href = "/dashboard";
+    }
+  }, [responseStatus]);
 
   return (
     <section className="signup__section bluar__shape">
