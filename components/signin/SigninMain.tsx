@@ -38,9 +38,9 @@ const SigninMain = () => {
       if (responseStatus) {
         localStorage.setItem('isLoggedIn', 'true');
         // navigate('/login');
-        setTimeout(() => {
+        // setTimeout(() => {
           window.location.href = '/dashboard';
-        }, 1000);
+        // }, 1000);
       }
       console.log("Success:", response.data.data);
     } catch (error) {
