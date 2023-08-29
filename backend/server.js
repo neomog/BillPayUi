@@ -6,10 +6,10 @@ const multer = require('multer');
 const PORT = 5000;
 const app = express();
 const upload = multer();
-const corsOptions = {
-    origin: "http://localhost:3000"
-};
-app.use(cors(corsOptions));
+// const corsOptions = {
+//     origin: "http://localhost:3000"
+// };
+// app.use(cors(corsOptions));
 app.use(express.json());
 
 
