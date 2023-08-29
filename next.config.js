@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     env: {
-        BASE_URL: 'http://billpay.conmasol.com/'
+        BASE_URL: 'https://billpay.conmasol.com/'
     }
 }
 
