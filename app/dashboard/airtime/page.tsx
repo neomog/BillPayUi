@@ -1,5 +1,5 @@
-import Banner from "@/components/card/Banner";
+import AirtimeBanner from "@/components/card/AirtimeBanner";
 
 export default function Card() {
-  return <Banner />;
+  return <AirtimeBanner />;
 }
